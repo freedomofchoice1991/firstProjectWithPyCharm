@@ -1,10 +1,10 @@
 import os
 import argparse
 
+
 def main(database: str, url_list_file: str):
     print("We are going work with " + database)
     print("We are going scan with " + url_list_file)
-
 
 
 if __name__ == "__main__":
@@ -15,5 +15,3 @@ if __name__ == "__main__":
     database_file = args.database
     input_file = args.input
     main(database=database_file, url_list_file=input_file)
-
-
